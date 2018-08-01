@@ -23,6 +23,16 @@
     transform: rotate(45deg);
 }
 
+.winner-pos {
+    display: flex;
+    justify-content: center;
+}
+
+.winner {
+    font-size: 2em;
+    visibility: hidden;
+}
+
 
 
 
