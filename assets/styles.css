@@ -1,0 +1,36 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+.center-me {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 11em;
+}
+
+.icon-pos {
+    display: flex;
+    justify-content: center;
+}
+
+.rock, .paper {
+    transform: rotate(45deg);
+}
+
+
+
+
+/* mobile */
+@media(max-width: 1125){
+
+/* .center-me {
+    align-content: center;
+} */
+
+}
