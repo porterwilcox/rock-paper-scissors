@@ -33,6 +33,16 @@
     visibility: hidden;
 }
 
+.score-pos {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: flex-start;
+    padding-left: 2em;
+}
+
+
+
+
 
 
 
@@ -40,7 +50,8 @@
 @media(max-width: 1125){
 
 /* .center-me {
-    align-content: center;
+    flex-flow: wrap column;
+    align-items: flex-end;
 } */
 
 }
