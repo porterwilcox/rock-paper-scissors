@@ -40,6 +40,39 @@
     padding-left: 2em;
 }
 
+.col-sm-4 {
+    z-index: 1;
+}
+
+/* .rocky:hover::after {
+    content: "rock";
+    color: white;
+    position: relative;
+    bottom: 3em;
+    left: 6em;
+    font-size: 2em;
+    z-index: 2;
+}
+
+.papery:hover::after {
+    content: "paper";
+    color: white;
+    position: relative;
+    bottom: 3.2em;
+    left: 4.7em;
+    font-size: 2em;
+    z-index: 2;
+}
+
+.scissory:hover::after {
+    content: "scissors";
+    color: white;
+    position: relative;
+    bottom: 3.5em;
+    left: 6em;
+    font-size: 2em;
+    z-index: 2;
+} */
 
 
 
@@ -47,11 +80,14 @@
 
 
 /* mobile */
-@media(max-width: 1125){
+@media(max-width: 1125px){
 
 /* .center-me {
     flex-flow: wrap column;
     align-items: flex-end;
 } */
 
+.icon {
+    font-size: 8em;
+}
 }
